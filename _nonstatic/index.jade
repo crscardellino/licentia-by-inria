@@ -1,0 +1,42 @@
+div#index-jumbotron.jumbotron
+  div.container
+    h1 License your Linked Data
+    p
+     | Licentia is a web service to help in the search of a suitable license
+     | for works within the Linked Data initiative.
+
+    p
+      button.btn(href="#", class=['btn-lg', 'btn-primary'], data-toggle="modal", data-target="#videoModal") Learn more
+
+div#main-features.container
+  div.row
+    div.col-md-6
+      h2 Find the perfect license
+      p
+        i.fa(class=['fa-search', 'fa-4x'])
+      p
+        | Use our application to find the perfect license for your work. You only have to mark
+        | what permissions, requirements and prohibitions a user will be able to do with your work.
+        | Our app will give the licenses that match your criteria.
+    
+    div.col-md-6
+      h2 Download the license RDF
+      p
+        i.fa(class=['fa-download', 'fa-4x'])
+      p
+        | Once you find the license your are looking, you will be able to download it in
+        | RDF Turtle format to use it for your needs. You are linked to the license
+        | human readable specification as well to check out the license on your own.
+
+
+// Modal 
+div#videoModal.modal(class=["fade"], tabindex="-1", role="dialog", aria-labelledby="videoModalLabel", aria-hidden="true")
+  div.modal-dialog
+    div.modal-content
+      div.modal-header
+        button.close(type="button", class="close", data-dismiss="modal")
+          span(aria-hidden="true") &times;
+          span.sr-only Close
+        h4#videoModalLabel.modal-title Licentia Demo Video
+      div.modal-body
+        iframe(width="640", height="360", src="//www.youtube.com/embed/YecyKnQUcBY", frameborder="0", allowfullscreen)

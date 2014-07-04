@@ -1,0 +1,65 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="title", content="Licentia by INRIA")
+    meta(name="description", content="Licentia demo page")
+    meta(name="author", content="Cristian Cardellino")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+
+    //  Licentia by INRIA. Demo page. 
+    //  (c) 2014 Cristian Cardellino 
+
+    //  Licensed under MIT license.
+    //  Check https://github.com/crscardellino/licentia-by-inria/blob/master/LICENSE for more information. 
+
+    // CSS
+    link(rel="stylesheet" href="/css/bootstrap.min.css")
+    link(rel="stylesheet" href="/css/main.css")
+    link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+    link(rel="shortcut icon", href="/images/favicon.png")
+
+  body
+    div#wrapper
+      nav#main-navbar.navbar(class=["navbar-default"] role="navigation")
+        div.container
+          div.navbar-header
+            button.navbat-toggle(type="button", data-toggle="collapse", data-target="#main-navbar")
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.brand(href="/")
+              img#logo(src='/images/logo.svg', alt="Licentia by INRIA", title="Licentia by INRIA")
+          div#navbar-menu.collapse(class=["navbar-collapse"])
+            ul.nav(class=["navbar-nav", "navbar-right"])
+              li.active
+                a(href="/") Home
+              li
+                a(href="#") About
+              li
+                a(href="#") Contact
+
+      div(class="content")
+        != yield
+
+      div.footer
+        div.container
+          div.row
+            div.col-md-6 &nbsp;
+            div.col-md-6(class=['block'])
+              h4.block-header Copyright &copy; 2014
+              p
+                | Built &amp; designed by <a href="http://crscardellino.me/about" target="_blank">Cristian Cardellino</a>
+                | for <a href="http://www.inria.fr" target="_blank">INRIA</a>.
+                br
+                | Powered by <a href="http://spin.nicta.org.au/spindle/" target="_blank">SPINdle reasoner</a>,
+                | <a href="http://www.playframework.com" target="_blank">Play Framework</a> &amp;
+                | <a href="http://www.scala-lang.org" target="_blank">Scala</a>.
+
+    // JavaScript 
+    // Placed at the end of the document so the pages load faster 
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", type="text/javascript")
+    script(src='/javascript/bootstrap.min.js', type="text/javascript")
