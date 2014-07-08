@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="575.20013"
+   width="599.07867"
    height="297.01743"
    id="svg2"
    version="1.1"
@@ -113,10 +113,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="248.94329"
-     inkscape:cy="71.455315"
+     inkscape:cx="313.34329"
+     inkscape:cy="151.45531"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="689"
@@ -138,7 +138,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -311,25 +311,25 @@
     </g>
   </g>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Brand"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(8.9839586,880.5408)">
+     transform="translate(8.9839582,880.5408)">
     <text
        xml:space="preserve"
-       style="font-size:185.30014038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.85;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       x="61.79808"
-       y="-669.42053"
+       style="font-size:148.91369629px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.85;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
+       x="87.69017"
+       y="-690.94751"
        id="text4372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4374"
-         x="61.79808"
-         y="-669.42053"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Baskerville;-inkscape-font-specification:Baskerville Italic">Licentia</tspan></text>
+         x="87.69017"
+         y="-690.94751"
+         style="font-size:148.91369629px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:AppleGothic;-inkscape-font-specification:AppleGothic">Licentia</tspan></text>
     <g
        id="layer1-3"
-       transform="matrix(0.62986201,0,0,0.62986201,824.6157,-843.83913)"
+       transform="matrix(0.62986201,0,0,0.62986201,820.6157,-847.83913)"
        style="opacity:0.85;fill:#ffffff;fill-opacity:1;stroke:none">
       <g
          id="g2378"
@@ -358,14 +358,14 @@
     <text
        xml:space="preserve"
        style="font-size:55.44919586px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.85;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="290.53461"
-       y="-634.71997"
+       x="284.53461"
+       y="-654.71997"
        id="text5148"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5150"
-         x="290.53461"
-         y="-634.71997"
-         style="font-size:31.17096519px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;stroke:none;font-family:Apple Chancery;-inkscape-font-specification:Apple Chancery Italic">by</tspan></text>
+         x="284.53461"
+         y="-654.71997"
+         style="font-size:31.17096519px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;stroke:none;font-family:AppleGothic;-inkscape-font-specification:AppleGothic">by</tspan></text>
   </g>
 </svg>
