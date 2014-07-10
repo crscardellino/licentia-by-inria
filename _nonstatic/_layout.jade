@@ -18,10 +18,10 @@ html(lang="en")
     title Licentia by INRIA
 
     // CSS
-    link(rel="stylesheet" href="/css/bootstrap.min.css")
-    link(rel="stylesheet" href="/css/main.css")
+    link(rel="stylesheet" href="css/bootstrap.min.css")
+    link(rel="stylesheet" href="css/main.css")
     link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
-    link(rel="shortcut icon", href="/images/favicon.png")
+    link(rel="shortcut icon", href="images/favicon.png")
 
   body
     div#wrapper
@@ -33,16 +33,12 @@ html(lang="en")
               span.icon-bar
               span.icon-bar
               span.icon-bar
-            a.brand(href="/")
-              img#logo(src='/images/logo.svg', alt="Licentia by INRIA", title="Licentia by INRIA")
+            a.brand(href=".")
+              img#logo(src='images/logo.svg', alt="Licentia by INRIA", title="Licentia by INRIA")
           div#navbar-menu.collapse(class=["navbar-collapse"])
             ul.nav(class=["navbar-nav", "navbar-right"])
               li.active
-                a(href="/") Home
-              li
-                a(href="#") About
-              li
-                a(href="#") Contact
+                a(href=".") Home
 
       div(class="content")
         != yield
@@ -62,4 +58,4 @@ html(lang="en")
     // JavaScript 
     // Placed at the end of the document so the pages load faster 
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", type="text/javascript")
-    script(src='/javascript/bootstrap.min.js', type="text/javascript")
+    script(src='javascript/bootstrap.min.js', type="text/javascript")
